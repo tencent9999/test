@@ -1,0 +1,23 @@
+.page-content{ width: 792px; padding-left: 192px; float: left;}
+.title-3{ margin-bottom: 40px; margin-top: 30px;}
+.title-2{ margin-bottom: 44px;}
+.text{ line-height: 25px;}
+.text p{ padding-bottom: 29px;}
+.data{ padding-bottom: 110px;}
+.data .img{ width: 100%;  background-size:cover; margin-bottom: 32px;  clear: both; display: block;}
+.ul-2{ padding-bottom: 80px;}
+.share{  float:left; margin-top: 200px; margin-left: 96px;}
+
+
+@media screen and (max-width: 769px) {
+    .title-3{ margin-bottom: 20px; }
+    .title-2,.data .img{ margin-bottom: 20px; }
+    .data{ padding-bottom: 10px;}
+    .ul-2{ padding-bottom: 10px;}
+    body .page-content{ padding-top:8px;}
+}
+
+.page-content img {
+    max-width: 100%;
+    height: auto !important;
+}

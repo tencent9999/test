@@ -1,0 +1,24 @@
+.banner{ background: url('../data/level-3-page/banner.jpg'); background-size: cover;}
+.page-content{ padding-top: 56px; padding-bottom: 200px; overflow: hidden;}
+.box-1{ display: inline-block; vertical-align: top; margin-right: 19px; cursor: pointer; }
+.box-1 .title{
+	white-space: normal;
+	word-break: normal;
+	
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+	text-align: left;
+}
+
+.box-1_1{ margin-right: 0px;}
+
+@media screen and (max-width: 469px) {
+    .page-content > .box-1{ width: 100%;}
+}
+
+@media screen and (max-width: 1150px) {
+ .page-content{ width: 100%; }
+}

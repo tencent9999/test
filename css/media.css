@@ -1,0 +1,364 @@
+/* 媒体 */
+.dynamics-flx {
+    width: 100%;
+    margin-top: 44px;
+}
+
+.dynamics-flx .list-box {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.dynamics-flx .list-box a {
+    display: block;
+}
+
+.dynamics-flx .list-box img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.dynamics-flx .list-box .mess {
+    padding: 0 16px;
+}
+
+.dynamics-flx .list-box .mess .title {
+    font-size: 20px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 30px;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.dynamics-flx .list-box .mess .desc {
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 29px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    height: 58px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.dynamics-flx .list-box .mess .date {
+    font-size: 16px;
+    color: #919797;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brand-item.brand-item-one {
+    padding-top: 72px;
+}
+
+.perspective-flx {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 44px;
+}
+
+.perspective-flx .pic {
+    width: 588px;
+    float: left;
+    margin-right: 72px;
+    position: relative;
+	height: 391px;
+}
+
+.perspective-flx .pic a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.perspective-flx .pic a img {
+    width: 100%;
+    object-fit: cover;
+	height: 100%;
+}
+
+.perspective-flx .pic .label {
+    position: absolute;
+    padding: 24px;
+    box-sizing: border-box;
+    bottom: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 43px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0, .03), rgba(0,0,0, .1), rgba(0,0,0, .2), rgba(0,0,0, .3));
+}
+
+.perspective-flx .pic .label .txt {
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.3;
+}
+
+.perspective-flx .list-box {
+    overflow: hidden;
+}
+
+.perspective-flx .list-box .li {
+    width: 100%;
+    margin-top: 41px;
+}
+
+.perspective-flx .list-box .li .label {
+    font-size: 20px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.perspective-flx .list-box .li .date {
+    font-size: 16px;
+    color: #919797;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin-top: 8px;
+}
+
+.medis-mess-box .media-tab {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.medis-mess-box .media-tab .ul {
+    width: 100%;
+    float: left;
+}
+
+.medis-mess-box .media-tab .ul li {
+    width: 176px;
+    float: left;
+    height: 174px;
+    box-sizing: border-box;
+    padding-top: 37px;
+    padding-bottom: 36px;
+    cursor: pointer;
+    position: relative;
+}
+
+.medis-mess-box .media-tab .ul li .line {
+    background: #0052D9;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: -4px;
+    left: 0;
+    display: none;
+}
+
+.medis-mess-box .media-tab .ul li img {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    margin-bottom: 9px;
+}
+
+.medis-mess-box .media-tab .ul li .label {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.medis-mess-box .media-tab .ul .active-li {
+    background: #fff;
+}
+
+.medis-mess-box .con-tab-box {
+    width: 100%;
+    background: #fff;
+}
+
+.medis-mess-box .media-tab .ul .active-li .line {
+    display: block;
+}
+
+.medis-mess-box .con-tab-box .con-tab {
+    display: none;
+    height: 495px;
+    box-sizing: border-box;
+}
+
+.medis-mess-box .con-tab-box .con-tab-active {
+    display: block;
+}
+
+.medis-mess-box .con-tab-box .con-tab-1 .title {
+    font-size: 24px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 43.2px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 24px;
+    margin-bottom: 96px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-1 .list {
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-1 .list img {
+    width: 42px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-1 .list .label {
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-1 .list a {
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 29px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod {
+    padding-top: 40px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list {
+    width: 23.5%;
+    /*float: left;*/
+	display: inline-block;
+    margin-right: 1.6%;
+    margin-bottom: 24px;
+    position: relative;
+	vertical-align: top;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list a {
+    display: block;
+    cursor: pointer;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list .pic-box {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list .pic {
+    width: 100%;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .c-r-m {
+    margin-right: 0;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .more-last-list .look-all {
+    display: block;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list .label {
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+    width: 100%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list .down-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -18px;
+    display: none;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .list:hover .down-icon {
+    display: block;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .look-all {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 82, 217, 0.8);
+    display: none;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .look-all .label {
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.medis-mess-box .con-tab-box .con-tab-mod .look-all .desc {
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.brand-item.brand-item-four {
+    padding-bottom: 20px;
+}
+
+.brand-item .big-perspective-flx .pic {
+    width: 100%;
+    /*height: 390px;*/
+}

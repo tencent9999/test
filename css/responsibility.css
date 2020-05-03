@@ -1,0 +1,64 @@
+/* 企业责任 */
+
+.responsibility .mod-section-ad h2{ width:500px;}
+
+.together-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 96px;
+}
+.together-box .bg{
+    width: 100%;
+    display: block;
+}
+.together-box .mobile-box{
+    display: none;
+}
+.together-box .go-icon{
+    margin-top: 12px;
+}
+.together-box .mess-box{
+    position: absolute;
+    left: 80px;
+    top: 26%;
+}
+.together-box .mess-box h2{
+    font-family: 'TencentSansW7';
+    font-size: 30px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+.together-box .mess-box .desc{
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+.together-box .go-icon {
+    width: 40px;
+    margin-top: 24px;
+    display: block;
+}
+.together-box .go-icon img {
+    width: 100%;
+    position: relative;
+}
+
+@media all and (max-width:1024px){
+	.responsibility .mod-section-ad h2{ margin-top:110px;}
+}
+
+
+@media all and (max-width:768px){
+	.responsibility .mod-section-ad h2{ width:375px;}
+}
+
+
+@media all and (max-width:750px){
+	.responsibility .mod-section-ad h2{ margin-top:40px;}
+}
+
+@media all and (max-width:375px){
+	.responsibility .mod-section-ad h2{ width:275px;}
+}

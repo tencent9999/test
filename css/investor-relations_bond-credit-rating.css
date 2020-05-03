@@ -1,0 +1,11 @@
+.banner{ background: url('../img/banners/investor-1.jpg') no-repeat center center; background-size: cover;}
+
+h2{ padding-top: 72px; padding-bottom: 40px; font-size: 30px;  line-height: 45px; font-family: 'TencentSansW7'; font-weight: normal;}
+
+.table-2{margin-bottom: 56px;}
+
+@media screen and (max-width: 769px) {
+    .banner {
+        background-position: right center;
+    }
+}

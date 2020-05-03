@@ -1,0 +1,321 @@
+
+.together .section-item{
+position: relative;
+box-sizing: border-box;
+width: 100%;
+}
+.artice-box{
+  width: 100%;
+  position: relative;
+}
+.artice-box:last-child{
+  margin-bottom: 0;
+}
+.artice-box img{
+  width: 100%;
+  position: relative;
+}
+.artice-box .san{
+  position: absolute;
+  right: -23.72px;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+.artice-box .go-icon{
+	width: 40px;
+	margin-top: 24px;
+	display: block;
+}
+.artice-box .text-box{
+  position: absolute;
+  padding: 64px 50px 88px 64px;
+  width: 574px;
+  background: #FBFBFB;
+  box-sizing: border-box;
+  top: 94px;
+  z-index: 5;
+}
+.artice-box .left-box{
+  left: -24px;
+}
+.artice-box .right-box{
+  right: -24px;
+  width: 664px;
+  padding: 64px 64px 88px 88px;
+}
+
+.en-us .artice-box .right-box{ top:118px; width: 668px;}
+
+.artice-box .text-box h3{
+  font-size: 30px;
+  color: #2A2E2E;
+  letter-spacing: 0;
+  font-family: 'TencentSansw7';
+  line-height: 45px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.artice-box .text-box h3 img{
+  width: 216px;
+}
+.artice-box .text-box h4{
+  font-size: 20px;
+  color: #2A2E2E;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.artice-box .text-box .desc{
+  font-size: 14px;
+  color: #5F6464;
+  letter-spacing: 0;
+  line-height: 25px;
+  width: 438px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.artice-box .right-box .desc{
+  width: 100%;
+}
+
+.together .mod-section-ad h2 {
+    width: 550px;
+    margin-top: 160px;
+}
+.mobile-bg {
+    display: none;
+}
+
+
+.product-box{
+	overflow: hidden;
+	margin-top: 96px;
+}
+
+.product-box .mid-label{
+font-size: 30px;
+color: #2a2e2e;
+font-family: 'TencentSansw7';
+margin-bottom: 35px;
+width: 100%;
+text-align: center;
+}
+.product-box .item{
+width: 49%;
+background-color: #fbfbfb;
+min-height: 260px;
+box-sizing: border-box;
+padding: 48px;
+margin-top: 24px;
+}
+
+.en-us .product-box .item{ min-height:330px;}
+.product-box .item-boxs{
+  display: table;
+}
+.product-box .item{
+  display: inline-block;
+  *display: inline;
+  word-spacing: 0;
+  vertical-align: top;
+}
+.product-box .item-one,.product-box .item-left{
+  margin-right: 1%;
+}
+.product-box .item-two,.product-box .item-right{
+  margin-left: 1%;
+}
+.product-box .item .pic{
+margin-bottom: 16px;
+overflow: hidden;
+}
+.product-box .item .pic img{
+height: 36px;
+float: left;
+margin-right: 12px;
+}
+.product-box .item .pic p{
+	font-size: 20px;
+	color: #2A2E2E;
+	letter-spacing: 0;
+	line-height: 36px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.product-box .item .desc{
+font-size: 14px;
+line-height: 25px;
+color: #5f6464;
+}
+.product-box .item .go-icon{
+	margin-top: 24px;
+	width: 40px;
+	display: block;
+}
+.product-box .item .go-icon img{
+	width: 100%;
+	display: block;
+}
+
+.together .section-item .mod-s-con{
+padding-left: 100px;
+padding-right: 100px;
+width: 1400px;
+box-sizing: border-box;
+margin: 0 auto;
+}
+.together .section-item.white-bg{
+padding-top: 96px;
+padding-bottom: 96px;
+}
+.together .section-item.gray-bg{
+padding-bottom: 128px;
+}
+.together .section-item .mess-text{
+	width: 344px;
+	padding-right: 50px;
+	float: left;
+  }
+  .together .section-item.section-one-item .mess-text{
+	margin-top: 44px;
+  }
+  .together .section-item.section-two-item .mess-text{
+	margin-top: 165px;
+  }
+  .en-us .together .section-item.section-two-item .mess-text{ margin-top:90px;}
+
+  .business-user .section-item.section-three-item .mess-text{
+	margin-top: 220px;
+  }
+  .en-us .together .section-item.section-three-item .mess-text{ margin-top:190px;}
+
+  .together .section-item.section-four-item .mess-text{
+	margin-top: 156px;
+  }
+  .together .section-item .mess-text h3{
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 24px;
+	color: #2a2e2e;
+	font-family: 'TencentSansw7';
+  }
+  .together .section-item .mess-text .desc{
+	font-size: 14px;
+	line-height: 25px;
+	color: #5f6464;
+  }
+  .together .section-item .product-box{
+	overflow: hidden;
+  }
+  .together .section-item .product-box .box{
+	width: 25%;
+	min-height: 224px;
+	float: left;
+	text-align: center;
+	padding-top: 26px;
+	box-sizing: border-box;
+	-webkit-transition: background-color 0.2s linear;
+  }
+
+  .together .section-item.white-bg .product-box .box:hover{
+	background: #FBFBFB;
+  }
+  .together .section-item.gray-bg .product-box .box:hover{
+	background: #ffffff;
+  }
+
+  .together .section-item .product-box .box .logo-pic{
+	width: 100%;
+  }
+  .together .section-item .product-box .box .logo-pic img{
+	width: 96px;
+  }
+  .together .section-item .product-box .box .mess{
+	margin-top: 8px;
+	width: 100%;
+  }
+  .together .section-item .product-box .box .name{
+	font-size: 20px;
+	line-height: 36px;
+	color: #2a2e2e;
+  }
+  .en-us .together .section-item .product-box .box .name{ line-height: 30px;}
+  .together .section-item .product-box .box .desc{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #5f6464;
+  }
+  .en-us .together .section-item .product-box .box .desc{
+	display: none;
+  }
+
+
+  .graph-link-box{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .graph-link-box a{
+    float: left;
+    font-size: 16px;
+    color: #0052D9;
+    letter-spacing: 0;
+    font-weight: bold;
+    position: relative;
+    padding-right: 24px;
+    margin-right: 56px;
+  }
+
+  .en-us .graph-link-box .science-link{
+    margin-top: 10px !important;
+  }
+  .graph-link-box a:after{
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    background: url("../img/together/chevron-right-blue.png") no-repeat center;
+    background-size: 20px 20px;
+    display: block;
+  }
+
+
+
+@media screen and (max-width: 1500px) {
+	.together .section-item .mod-s-con{ padding-left: 105px;}
+}
+
+
+@media screen and (max-width: 1250px) {
+	.together .section-item .mod-s-con{ padding-left: 0px;}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.en-us .together .section-item.section-one-item .mess-text{ margin-top:0px;}
+	.en-us .together .section-item .product-box{ padding-top:50px;}
+	.together .mod-section-ad h2{ margin-top:70px;}
+}
+
+@media screen and (max-width: 768px) {
+	.product-box .item .pic img{ height:28px;}
+	.together .mod-section-ad h2{ margin-top:48px;}
+}
+
+@media all and (max-width:425px){
+	.together .mod-section-ad .desc br{ display: none;}
+	.artice-box .text-box h4{ font-size:16px; line-height: 1.5;}
+}
+
+
+

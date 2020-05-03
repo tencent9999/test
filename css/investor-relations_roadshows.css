@@ -1,0 +1,65 @@
+.page-content{ width:1000px; padding-left: 192px; float: left; padding-top: 73px ; padding-bottom: 90px; }
+
+.banner{ background: url('../img/banners/investor-1.jpg') no-repeat center center; background-size: cover;}
+
+.navigation-2{ top: 200px; position:absolute; left: 0px;}
+
+
+.years_box{ padding-bottom: 30px;}
+.years_box .years_box_title{ font-size: 36px; float: left; width: 125px;  font-weight: bold; font-family: 'TencentSansw7'; font-weight: normal;}
+.years_box_main{ float: left;}
+
+.month_box{ padding-bottom: 43px; position: relative;  padding-left: 22px; padding-top: 5px;}
+.month_box .line_icon{ width: 7px; height: 7px;  border-radius: 50%; background: #d8d9dc; position:absolute; left: -3px; top:15px; z-index: 2;}
+.month_box .line{ position:absolute; width: 1px; height: 100%; background: #f2f3f5; left: 0px; top: 15px;}
+.month_box .time{ font-size: 20px; font-family: 'TencentSansw7'; color: #2a2e2e; font-style: normal; float: left;  font-weight: bold;  width: 185px;}
+.month_box_main{ float: left;}
+.month_box_main .title{ cursor:pointer; color: #2a2e2e; font-size: 16px; padding-bottom: 8px; font-weight: bold; height: 30px; line-height: 30px; width: 430px;}
+.month_box_main .title span{ float: left;}
+.month_box_main .title img{  float:right;  margin-top: 4px;}
+.month_box_main img{ width: 13px; float: left; padding-top: 6px; padding-right:8px;}
+.month_box_main .box{ padding-bottom: 8px; height: 26px; line-height: 26px;}
+.month_box_main .place{ margin-right: 33px; float: left;}
+.month_box_main .content{ display:none; width: 400px;}
+
+.date{ position: relative; z-index: 9999; cursor:pointer}
+.active{ color: #0052d9}
+.date-wrap{ display: none; position:absolute; width: 122px; background: #fff; z-index:9999; top: 26px; left: 0px; border: 1px solid #d8d9dc;}
+.date-wrap a{ display:block; height: 32px;  line-height: 32px; padding-left: 16px; color: #2a2e2e;}
+.date-wrap a:hover{ background: #0052d9; color: #fff;}
+
+.navigation-3{ display: none;}
+
+@media screen and (max-width: 1150px ) {
+    .page-content{ float: none; width: 800px; margin: auto;}
+}
+
+@media screen and (max-width: 769px) {
+    .banner {
+        background-position: right center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .page-main .f-content{ width: 88%;}
+    .years_box .years_box_title{ font-size: 24px; margin-bottom: 20px;}
+    .navigation-3{ display: block;}
+
+    .content_mobile{ clear: both;}
+    .line_icon,.line,.mobile .content_mobile,.month_box .time{ display: none;}
+    .month_box_main{ width: 100%;}
+    .month_box_main .content{ display: block;}
+
+    .years_box_main{ float: none; clear: both;}
+    .month_box{ padding-left: 0px; position:initial; padding-bottom: 20px;}
+    .month_box_main .title{ width: 100%; overflow: hidden; height: auto;}
+    .month_box_main .title span{ width: 75%;}
+
+    .page-main{ position: relative;}
+    .page-main .bg{ position:absolute; width: 100%; height: 100%; background: rgba(0,0,0,0.3); z-index: 1; display: none;}
+
+	.month_box_main .place{ display:block; float: none; width: auto;}
+	.month_box_main .box{ padding-bottom:0px; height: auto;}
+
+
+}

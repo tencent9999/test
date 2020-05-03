@@ -1,0 +1,17 @@
+.banner{ 
+    background: url('../data/level-3-page/banner.jpg'); 
+    background-size: cover;
+}
+
+@media screen and (max-width: 1100px) {
+    body .ul-1 .li .left{ width:65%; }
+}
+
+@media screen and (max-width: 700px) {
+    body .ul-1 .li .left{ width:60%; padding-left: 3%; }
+    body .ul-1 .li .img{ width: 35%; max-width:150px;}
+}
+
+@media screen and (max-width: 400px) {
+    body .ul-1 .li .img{ width: 30%; }
+}

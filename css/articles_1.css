@@ -1,0 +1,114 @@
+.page-content{ width: 792px; padding-left: 192px; float: left;}
+.title-1{ margin-bottom: 40px; margin-top: 30px;}
+.title-2{ margin-bottom: 24px;}
+.text{ line-height: 25px;}
+.text p{ padding-bottom: 29px;}
+.data{ padding-bottom: 121px;}
+.ul-2{ padding-bottom: 80px;}
+.ul-3{ padding-bottom: 20px;}
+.share{  float:left; margin-top: 200px; margin-left: 96px;}
+.hw_sub-title { font-weight: bold; font-size: 16px; }
+.hw_sub-title a { text-decoration: underline;}
+.share{ position: fixed;top: 40px;right: 9%;}
+.img{
+    display: block;
+    max-width: 100%;
+    width: auto;
+}
+.page-content .data .img {
+    width : 100%;
+}
+.text .titles{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.text .boxs .ps{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.text .boxs{
+    margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.hrefs{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 769px) {
+   .data{ padding-bottom: 10px;}
+   .ul-2{ padding-bottom: 10px;}
+
+   body .page-content{ padding-top:18px;}
+}
+
+.text p {
+   padding-bottom: 15px;
+   margin-top: 20px;
+}
+
+.block-box .titles{
+    padding-bottom: 10px;
+}
+
+
+.tool-flx{
+    width: 100%;
+    margin-top: 32px;
+}
+.tool-flx .item-box{
+    float: left;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin-right: 24px;
+    -webkit-transition: background-color 0.2s linear;
+}
+.tool-flx .item-box:last-child{
+    margin-right: 0;
+}
+.tool-flx .item-box img{
+    height: 60px;
+    margin-top: 43px;
+}
+.tool-flx .item-box .label{
+    font-size: 16px;
+    color: #2A2E2E;
+    letter-spacing: -0.01px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.tool-flx .item-box:hover{
+    background: #FFF;
+}
+.tool-flx .active-item-box{
+    background: #FFF;
+}
+.page-content .data .img-row{
+    width: 100%;
+    overflow: hidden;
+}
+.page-content .data .img-row .img{
+    width: 49%;
+    float: left;
+}
+.page-content .data .img-row .img.img-right{
+    float: right;
+}
+
+.text .mdesc{
+    text-align: center;
+    font-size: 13px;
+    width: 70%;
+    margin: 0 auto;
+}
+.text .max-mdesc{
+    width: 100%;
+}
+.page-content .data .pc-50-width{
+    width: 70%;
+}

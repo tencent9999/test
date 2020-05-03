@@ -1,0 +1,64 @@
+.enquiryForm_con{ width:1200px; margin:80px auto 40px;color:#222;}
+.enquiryForm h2{font-family:PingFangSC-Semibold, 'Microsoft YaHei';font-size:32px;color:#2a2e2e;letter-spacing:0;text-align:left; margin-bottom:20px}
+.enquiryForm_con .enquiryField_con{margin:0 auto; background-color:#fbfbfb; padding:40px;box-sizing:border-box; }
+.enquiryForm_con .enquiryField_area{max-width:680px; margin:0 auto; }
+.enquiryForm h3{font-family:PingFangSC-Regular, 'Microsoft YaHei';font-size:14px;color:#222;text-align:left; padding:0; float:left; line-height:36px; text-align:right; width:160px; padding-right:24px; box-sizing:border-box}
+.enquiryForm .inputField{ margin: 0 0 20px 160px; position:relative}
+.enquiryForm .inputField input, .enquiryForm .inputField select, .enquiryForm .inputField textarea, .enquiryForm .btn input{padding:0 18px; box-sizing:border-box; width:100%; font-family:PingFangSC-Regular, 'Microsoft Yahei', 'Microsoft JhengHei', arial, sans-serif;font-size:14px;color:#2a2e2e;letter-spacing:0;line-height:36px;text-align:left; border:1px solid #F2F3F5; background-color:#fff; }
+.enquiryForm .inputField textarea{ line-height:normal; padding:7px 18px 40px; height:150px;border-radius:0px}
+.enquiryForm .inputField input:focus, .enquiryForm .inputField select:focus, .enquiryForm .inputField textarea:focus{ border: 1px solid #D8D9DC; box-shadow: inset 0 1px 3px 0 #FFFFFF;}
+.enquiryForm .inputField input{background-color:#fff; border-radius:0px}
+.enquiryForm .inputField select{-webkit-appearance: none; -moz-appearance: none; appearance: none; background-image:url("../img/irasia/icon_arrowdown.png"); background-repeat:no-repeat; background-position:center right 20px; background-size: auto 40%}
+.enquiryForm .inputField select:focus{background-image:url("../img/irasia/icon_arrowup.png");}
+.enquiryForm .inputField .errorNote{ display:none}
+.enquiryForm .textAreaBox .countNote{ text-align:left; bottom:0; position:absolute; left:0; color:#999; margin: 1px 18px; line-height:36px;}
+.enquiryForm .btn{margin: 0 0 20px 160px;}
+.enquiryForm .btn input{ font-family:PingFangSC-Regular,'Microsoft Yahei', 'Microsoft JhengHei', arial, sans-serif;font-size:14px;color:#fff;letter-spacing:0;line-height:36px; width:auto; padding:0 30px; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.enquiryForm .btn input#submit{ background-color:#0052D9; cursor:pointer ;border-radius:0px}
+/*.enquiryForm .btn input[type=submit]:hover{ background-color:#fff; border:1px solid #0052D9; color:#0052D9}*/
+.enquiryForm .btn input[type=reset]{ background-color:#FBFBFB; border:1px solid #FBFBFB; color:#9EA4A4; cursor:pointer;border-radius:0px}
+/*.enquiryForm .btn input[type=reset]:hover{ background-color:#eee;}*/
+.enquiryForm .vcodeBox { position:relative;}
+.enquiryForm .vcodeBox .vcodeImgArea { position:absolute; right:0; top:0; height:100%; width:auto; padding:1px; box-sizing:border-box; text-align:right}
+.enquiryForm .vcodeBox .vcodeImgArea img { display:inline-block; vertical-align:middle}
+.enquiryForm .vcodeBox .vcodeImgArea #vcodeRefresh{ margin:0 10px; cursor:pointer; width:24px}
+.enquiryForm .vcodeBox .vcodeImgArea #vcodeImg{height:100%;}
+.enquiryForm .note{font-family:PingFangSC-Regular, 'Microsoft Yahei', 'Microsoft JhengHei', arial, sans-serif;font-size:16px;color:#2a2e2e;letter-spacing:0;line-height:20px; margin-bottom:48px}
+
+.enquiryForm .inputField.inputError input, .enquiryForm .inputField.inputError select, .enquiryForm .inputField.inputError textarea{border: 1px solid #FF3E00;}
+.enquiryForm .inputField.inputError .errorNote{color: #FF3E00; display:block; position:absolute; right:0; line-height:36px; margin: 1px 18px}
+.enquiryForm .textAreaBox.inputError .errorNote{ text-align:right; bottom:0;}
+.enquiryForm .vcodeBox.inputError .errorNote{ position:static; display:inline-block; margin:0; line-height:34px}
+.enquiryHide{ display:none}
+
+/* custom select */
+
+.custom-select { position: relative;}
+.custom-select select.inited {display: none; }
+.inputError .select-selected{border: 1px solid #FF3E00;}
+.select-selected {  background-color: #fff; border: 1px solid #F2F3F5; background-image:url("../img/irasia/icon_arrowdown.png"); background-repeat:no-repeat; background-position:center right 20px; background-size: auto 12px }
+.select-selected.select-arrow-active{background-image:url("../img/irasia/icon_arrowup.png"); border: 1px solid #D8D9DC; border-bottom: 1px solid transparent; }
+.select-items div,.select-selected { color: #2a2e2e; padding: 8px 16px; cursor: pointer;}
+.select-items div{border-right: 1px solid #D8D9DC;border-left: 1px solid #D8D9DC;}
+.select-items { position: absolute; background-color: #fff; top: 100%; left: 0; right: 0; z-index: 99;border-bottom: 1px solid #D8D9DC;}
+.select-hide { display: none;}
+.select-items div:hover, .same-as-selected {  background-color: #F2F3F5;}
+.select-items .select-disabled, .select-items .select-disabled:hover{ color:#fff; cursor:default; background-color: #fff; height:1px; overflow:hidden; padding:0}
+
+
+
+@media screen and (max-width: 1250px) {
+	.enquiryForm_con{ width:96%}
+}
+
+@media screen and (max-width: 768px) {
+	.enquiryForm_con{ margin:20px auto; padding:20px; width:100%; box-sizing:border-box }
+	.enquiryForm_con .enquiryField_con{padding:20px;}
+	.enquiryForm h3{padding:0; float:none; line-height:normal; margin-bottom:12px;  text-align:left;}
+	.enquiryForm .inputField{margin: 0 0 30px 0; }
+	.enquiryForm .inputField.inputError input{padding-bottom: 40px;}
+	.enquiryForm .inputField.inputError .errorNote{bottom:0;}
+	.enquiryForm .vcodeBox.inputError .vcodeImgArea{ height:36px;}
+	.enquiryForm .vcodeBox.inputError .errorNote{ position:absolute; display:block; top:36px;  margin: 1px 18px; width:100%; min-width: 280px;}
+	.enquiryForm .btn{margin: 0 0 20px 0;}
+}

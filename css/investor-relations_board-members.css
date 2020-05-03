@@ -1,0 +1,18 @@
+.page-content{ width: 760px; padding-left: 192px; float: left; padding-top: 72px ; padding-bottom: 72px; }
+
+.banner{ background: url('../img/banners/investor-1.jpg') no-repeat center center; background-size: cover;}
+
+.box{ padding-bottom: 50px;}
+.box h4{ height: 42px; font-size: 30px; padding-bottom: 16px; color: #2a2e2e;}
+.box h4 span{ font-size: 20px; padding-left: 12px;}
+.box .box_txt{ line-height: 26px; color: #5f6464;}
+
+@media screen and (max-width: 769px) {
+   .page-main .f-content{ width:88%;}
+   .box h4{ font-size: 24px; height: auto;}
+   .box h4 span{ font-size: 16px; display: block; padding-left:0px; }
+
+    .banner {
+        background-position: right center;
+    }
+}

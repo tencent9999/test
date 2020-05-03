@@ -1,0 +1,50 @@
+.banner{ background: url('../img/banners/investor-1.jpg') no-repeat center center; background-size: cover;}
+
+
+.top h2{ line-height: 45px; font-size: 30px;  padding-top:70px; padding-bottom: 16px; font-family: 'TencentSansw7'; font-weight: normal;}
+.top .left p{ line-height: 36px; font-size: 20px; }
+.top img{ width: 180px; margin-top: 80px;}
+
+
+.table-1{ margin-top: 58px  ; margin-bottom: 100px;}
+.hkd_box {font-family: 'TencentSansw7';}
+.hkd_box_title{  font-size: 36px; padding-bottom: 10px;  font-weight: bold;}
+.hkd_box_title span{ font-size: 16px; padding-right: 8px;  font-family:'PingFangSC-Regular', 'helvetica neue', tahoma, 'PingFang SC', 'microsoft yahei', arial, 'hiragino sans gb', sans-serif; font-weight: 300; }
+.hkd_box .p{ color: #488f34; font-size: 14px; line-height: 14px;}
+.hkd_box img{ width: 16px; float: left; padding-right: 7px;}
+
+.page_footer_instructions{  color: #919797; padding-top: 24px; padding-bottom: 56px; text-align: center;;}
+.page_footer_instructions span{ color: #2a2e2e;}
+
+.content_1{ padding-left: 52px; }
+
+.table_button{ display: block; border-top: 1px solid #fbfbfb; text-align: center; font-size: 16px; margin-top: 10px; width: 95%; margin: auto;}
+.table_button span{ display: block;  width: 90px; margin: auto;  padding: 24px 0; color: #5f6464; }
+.table_button img{ float:right; width:16px; padding-top: 8px;}
+
+.data_img,.table-1_2{ display: none;}
+@media screen and (max-width: 769px) {
+    .data_img{  display: block; margin-bottom: 50px;}
+    .top .right,.tab-1{ display:none;}
+    .page_footer_instructions{ display: none;}
+
+    .table-1{ display: none;}
+
+    .top h2{ font-size: 24px;  padding-top: 45px; padding-bottom: 0px;}
+    .top .left p{ font-size: 16px;  padding-bottom: 10px;}
+
+
+    .table-1_2{ display:table; margin-bottom:20px; margin-top:20px;}
+    .table-1 tr td{ width:25%;  padding-left:6px; font-size: 16px;}
+    .table-1 tr .td_2{ padding-left: 24px; width:45%;  padding-left:16px;}
+    .table-1_2 .txt{ position: relative;}
+    .hkd_box{ position:absolute; top: 5px;}
+    .table-1 td{ height: 60px;}
+
+    .txt_td{ position:absolute; top: 10px;}
+
+    .banner {
+        background-position: right center;
+    }
+}
+

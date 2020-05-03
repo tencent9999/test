@@ -1,0 +1,37 @@
+.page-content{ width:1000px; padding-left: 192px; float: left; padding-top: 73px ; padding-bottom: 90px; }
+
+.banner{ background: url('../img/banners/investor-1.jpg') no-repeat center center; background-size: cover;}
+
+.navigation-2{ top: 200px; position:absolute; left: 0px;}
+
+
+.years_box{ padding-bottom: 20px;}
+.years_box_title{ float: left; width: 120px; font-size: 36px; line-height: 47px; font-family: 'TencentSansW7'; font-weight: normal;}
+.years_box_content{ float: left; width: 660px;}
+
+.events { float: left; margin:0px 25px; text-align: center;}
+.events img{ width: 130px;}
+.events .title{ color: #000000;  padding-top: 8px; font-size: 16px;}
+
+
+@media screen and (max-width: 769px) {
+    body .f-content{ width: 84%;}
+    body .events{ margin: 0px; margin-right: 11%; width: 44%;}
+    body .events:nth-child(2n){ margin-right: 0px;}
+    body .years_box_title{ width: 28%;}
+    body .years_box_content{ width: 72%;}
+    body .page-content{ padding-bottom: 0px; }
+    .button-1{ margin-bottom: 12px;}
+
+    .events .title{ font-size: 14px; line-height: 25px; padding-top:4px;}
+    .years_box_title{ font-size: 20px; width:20%; position: relative;}
+    .years_box_title:before{ content:' '; position: absolute;  width: 1px; height: 80px; background: #f2f3f5; left: 25px; top: 40px;}
+
+    .years_box_content{ width: 75%; }
+    .events{ width: 42%; margin:0 4%;}
+    .events img{ width: 100%;}
+
+    .banner {
+        background-position: right center;
+    }
+}
